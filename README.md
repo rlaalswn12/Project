@@ -3,4 +3,7 @@
 
 ## Group B2
 ***
-TEST TEST TEST
+
+# Our project memo
+We will modularize the code we wrote.
+All the data will be processed into our source.
