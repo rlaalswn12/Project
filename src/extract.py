@@ -2,6 +2,7 @@ import filter as f
 import os
 import xml.etree.ElementTree as ET
 
+
 Wafer = str(input("Input wafer name : "))
 a = f.call_dir(Wafer, 'LMZ')
 
@@ -19,6 +20,3 @@ for t in a:
     element3 = root.find('.//PortCombo')
     date = element3.attrib['DateStamp']
 
-    print(name)
-    print(operator)
-    print(date)
