@@ -1,9 +1,9 @@
 import os
 
-arr = os.listdir("C:/Users/main/Desktop/first/Project1/data")
+arr = os.listdir("../data")
 
 print("\n".join(arr))
 
-for (root, dirs, file) in os.walk("C:/Users/main/Desktop/first/Project1/data"):
+for (root, dirs, file) in os.walk("C:../data"):
     for f in file:
         print(f)
